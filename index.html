@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Lane Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="carGame">
+    <div class="startScreen">
+      <h1>Highway Dodge</h1>
+      <p>Use Arrow keys to control the car:</p>
+      <ul>
+        <li>Up Arrow: Move Up</li>
+        <li>Down Arrow: Move Down</li>
+        <li>Left Arrow: Move Left</li>
+        <li>Right Arrow: Move Right</li>
+      </ul>
+      <p>Press Space to fire a ball and destroy enemy cars!</p>
+      <div class="difficultyLevels">
+        <h3>Select Difficulty:</h3>
+        <button id="easyBtn">Easy</button>
+        <button id="mediumBtn">Medium</button>
+        <button id="hardBtn">Hard</button>
+      </div>
+    </div>
+    <div class="score">
+      <div class="currentScore">Current Score: 0</div>
+      <div class="highestScore">Highest Score: 0</div>
+    </div>
+    <div class="gameArea hide">
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
